@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    height: 80px;
+}
+
+.logo img{
+    width:120px;
+}
+.mainMenu{
+    display:flex;
+    justify-content:center;
+    margin-left: 200px;
+}
+.menu{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#333;
+    font-size:16px;
+}
+
+.menu a:hover{
+    color:#ff6b00;
+    border-bottom: 2px solid #ff6b00;
+}
+li a.btn{
+    color: red
+    
+}
+
+       </style>
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="logo">
+            <img src="./assets/WhatsApp-Image-2020-08-20-at-2.07.47-PM.jpeg" alt="logo">
+        </div>
+        <div class="mainMenu">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Quality & Hygiene</a></li>
+            <li><a href="#" class="btn">ORDER NOW</a></li>
+        </ul>
+        </div>
+    </div>
 </body>
 </html>
