@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
         *{
     margin:0;
@@ -48,24 +49,400 @@ li a.btn{
     color: red
     
 }
+.Home img{
+    height: 400px;
+    margin-top: 40px;
+
+}
+.ordNow{
+    background-color: rgb(210, 54, 48);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 6px;
+    height: 40px;
+    text-align: center;
+   }
+   .ordNow:hover {
+    background-color: rgb(250, 54, 48);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 20px;   
+}
+.prod{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.prod img{
+    height: 150px;
+    width: 200px;
+}
+.prod img:hover{
+    color: rgb(250, 54, 48);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.scdSection h2{
+    margin-left: 310px;
+    margin-top: 20px;
+    color: rgb(221, 78, 27);
+    font-size: 20px;
+    font-weight: 900;
+}
+.mithai{
+    text-align: center;
+}
+.mithai h4{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.orange{
+    background-color: rgb(221, 78, 27);
+    height: 300px;
+}
+.orange h2{
+    color: white;
+    padding-top: 40px;
+
+}
+.para1{
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-size: 12px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.rd{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 30px;
+    width : 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.orange a{
+    text-decoration: none;
+}
+.products{
+    margin-top: 40px;
+}
+.products p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+
+    
+}
+.products button{
+    border: none;
+    font-size:13px;
+    height: 30px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(210, 54, 48);
+    border-radius: 10px;
+    color: white;
+}
+.mainPhoto{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;   
+
+}
+.photo1 img{
+    height: 150px;
+    width: 200px;
+    display: block;
+
+
+}
+.photo1 button{
+    width: 100%;
+    border: none;
+    background-color: rgb(210, 54, 48);
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+}
+ .mapSection{
+                display: flex;
+        
+                margin-top: 50px;
+            }
+            
+        
+        
+        .leftMap{
+            width: 40%;
+            padding-left: 20px;
+
+        }
+        .leftMap button{
+            background-color: #b67a47;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-bottom: 10px;
+          
+        }
+        .leftMap button:hover{
+            background-color: #ff6b00;
+        }
+.rightMap{
+   
+    width: 550px;
+    height: 400px;
+    margin-left: 90px;
+}
+ .footer{
+    background:#b47b45;
+    color:white;
+    padding-top:50px;
+    margin-top: 50px;
+}
+
+.footer-container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.footer-col{
+    width:22%;
+}
+
+.footer-col h3{
+    margin-bottom:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.footer-col p{
+    line-height:1.7;
+    font-size:14px;
+}
+
+.footer-col ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-col ul li{
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+            .last{
+                background-color: black;
+                color: white;
+                height: 50px;
+                width: 100%;
+                display: flex;
+                gap: 450px;
+                align-items: center;
+                padding-left: 120px;
+                font-size: 12px;
+            }
+            .last span{
+                color: #ebcd1e;
+            }
+        
 
        </style>
 </head>
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="./assets/WhatsApp-Image-2020-08-20-at-2.07.47-PM.jpeg" alt="logo">
+            <img src="./assets/WhatsApp-Image-2020-08-20-at-2.07.47-PM.jpeg" alt="logo" height="100px">
         </div>
         <div class="mainMenu">
         <ul class="menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Quality & Hygiene</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="Quality and Hygine.html">Quality & Hygiene</a></li>
             <li><a href="#" class="btn">ORDER NOW</a></li>
         </ul>
         </div>
     </div>
+    <div class="Home">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/photo1.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/photo2.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/gulab jamun.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<button class="ordNow">order now</button>
+</div>
+<!--second section-->
+<div class="scdSection">
+    <h2>Feature Products</h2>
+    <div class="prod">
+        <div class="mithai">
+        <img src="./assets/malai burfi.jpeg" alt="">
+        <h4>Malai Burfi</h4>
+        </div>
+        <div class="mithai">
+        <img src="./assets/kaju katli.jpeg" alt="">
+        <h4>Kaju Katli</h4>
+        </div>
+        <div class="mithai">
+        <img src="./assets/rasmalai.jpeg" alt="">
+        <h4>Rasmalai</h4>
+        </div>
+
+    </div>
+    <!--orange section-->
+    <div class="orange">
+        <h2>Kaka Halwai</h2>
+        <p class="para1">Food is an emotion and we understand every emotion right from the sweets to the namkeens. At Kaka Halwai, we have all sorts of sweets to share your happiness and celebrate your victories. We also keep you updated with the namkeens in life at your kitty parties and family gatherings. That makes us your one-stop destination for every occasion.</p>
+        <p class="para1">Being one of the largest manufacturers and sellers of sweets, we have served you, your favorite delicacies through our franchise and locale shops in Pune. While maintaining 10 years of consistent taste and quality, we promise to continue the same in the coming future.</p>
+        <a href="AboutUs.html"><button class="rd">Read More</button></a>
+    </div>
+    <!--product section-->
+    <div class="products">
+        <h2>Products</h2>
+        <p>100+ years of manufacturing experience <br>
+In-house manufacturing of all edibles <br>
+The one-stop shop for all sweets and namkeens.</p>
+<button>Order Now</button>
+    </div>
+    <!--photos section-->
+    <div class="mainPhoto">
+        <div class="photo1">
+            <img src="./assets/samosa.avif" alt="">
+            <button>Samosa</button>
+        </div>
+         <div class="photo1">
+            <img src="./assets/Mawa-Koyal-2-min.jpg" alt="">
+            <button>Mawa Koyal</button>
+        </div>
+          <div class="photo1">
+            <img src="./assets/kaju mango burfii.jpeg" alt="">
+            <button>Kaju Mango Burfi</button>
+        </div>
+
+
+    </div>
+    <div class="mapSection">
+    <div class="leftMap">
+       <button>AUNDH</button>
+       <button>BUDHVAR PETH</button>
+         <button>DECCAN GYMKHANA</button>
+            <button>KALEWADI</button>
+            <button>PIMPARI-CHINCHWAD</button>
+            <button>PIMPLE GURAV</button>
+    </div>
+    <div class="rightMap">
+ <iframe 
+        src="https://www.google.com/maps?q=Budhwar+Peth+Pune&output=embed"
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>    
+</div>
+</div>
+
+<!--footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>ABOUT US</h3>
+      <p>
+        One of the largest sellers of sweets and namkeens with over 100 years
+        of manufacturing experience. 10 years of consistent taste and quality,
+        with a promise to continue the same in the coming future.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h3>LINKS</h3>
+      <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Products</li>
+        <li>Quality & Hygiene</li>
+        <li>Contact us</li>
+        <li>ORDER NOW</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>PRODUCTS</h3>
+      <ul>
+        <li>Pedhe</li>
+        <li>Barfi – Khawa</li>
+        <li>Barfi – Malai</li>
+        <li>Driedfruit Mithai</li>
+        <li>Traditional Mithai</li>
+        <li>Bengali Mithai</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>CONTACT</h3>
+      <p>
+        Kaka Halwai Sweets & Namkeen<br>
+        Survey no. 157, D.P. Road Aundh,<br>
+        Pune-07<br><br>
+        020-40098393<br>
+        Info@kakahalwai.co.in
+      </p>
+    </div>
+
+  </div>
+
+<div class="last">
+    <p>© 2025 Kaka Halwai. All rights reserved.</p>
+    <p>Website managed by : <span>Bee Logical Software Solutions</span></p>
+</div>
+
+</div>
 </body>
 </html>
